@@ -1,8 +1,8 @@
 {
-  "name": "errors",
-  "description": "A pattern to display application errors to the user",
-  "homepage": "https://github.com/tmeasday/meteor-errors",
-  "author": "Tom Coleman <tom@thesnail.org>",
-  "version": "0.2.0",
-  "git": "https://github.com/tmeasday/meteor-errors.git"
+  "name": "bootstrap-errors",
+  "description": "A pattern to display application errors to the user using Bootstrap 3",
+  "homepage": "https://github.com/lezed1/meteor-bootstrap-errors",
+  "author": "Zander Bolgar <lezed1@gmail.com>",
+  "version": "0.3.0",
+  "git": "https://github.com/lezed1/meteor-bootstrap-errors.git"
 }
