@@ -1,4 +1,4 @@
 meteor-bootstrap-errors
 =======================
 
-A simple error display design for Bootstrap
+A pattern to display application errors to the user using Bootstrap 3
