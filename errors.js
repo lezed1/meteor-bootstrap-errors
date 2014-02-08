@@ -3,7 +3,7 @@ Errors = {
   collection: new Meteor.Collection(null),
   
   throw: function(message) {
-    Errors.collection.insert({message: message, seen: false})
+    Errors.collection.insert({message: message, seen: false, createdAt: new Date().getTime()})
   },
   clearSeen: function() {
     Errors.collection.remove({seen: true});

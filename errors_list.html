@@ -1,5 +1,11 @@
 <template name="meteorErrors">
-  {{#each errors}}
+  {{#each allErrors}}
+    {{> meteorError}}
+  {{/each}}
+</template>
+
+<template name="meteorLastError">
+  {{#each lastError}}
     {{> meteorError}}
   {{/each}}
 </template>
