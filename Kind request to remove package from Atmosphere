@@ -1,0 +1,16 @@
+Hey Zander,
+
+Quick favor: when you were playing with Meteor in 2013, you published to Atmosphere a bunch of test package.
+
+The problem is that they clutter the search results now.
+
+Can you please remove them from Atmosphere? Just run
+
+    meteor admin set-unmigrated lezed1:bootstrap-errors
+    meteor admin set-unmigrated bootswatch-slate-3
+
+(we now have [official Bootswatch packages](https://atmospherejs.com/bootswatch))
+
+Thanks!
+Dan
+Atmosphere curator
